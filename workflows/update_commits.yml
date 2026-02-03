@@ -1,0 +1,36 @@
+name: Update Commits Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Count commits
+        id: count
+        run: |
+          COMMITS=$(git rev-list --count HEAD)
+          echo "COMMITS=$COMMITS" >> $GITHUB_ENV
+
+      - name: Generate badge
+        run: |
+          BADGE="![Commits](https://img.shields.io/badge/Commits-${COMMITS}-blue?style=for-the-badge)"
+          echo "BADGE=$BADGE" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i "s/<!-- COMMITS_BADGE -->/$BADGE/" README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update commits badge" || echo "No changes to commit"
+          git push
