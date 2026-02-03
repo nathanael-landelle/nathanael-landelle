@@ -26,8 +26,6 @@ My work is mainly composed of school projects focused on
 low-level programming, Unix systems, fundamental  
 programming concepts, and simple graphical logic.  
 
-![Commits](https://img.shields.io/badge/Commits-1-blue?style=for-the-badge)
-
 ---
 
 <a id="inventory"></a>
