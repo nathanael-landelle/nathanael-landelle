@@ -25,9 +25,11 @@ jobs:
           BADGE="![Commits](https://img.shields.io/badge/Commits-${COMMITS}-blue?style=for-the-badge)"
           echo "BADGE=$BADGE" >> $GITHUB_ENV
 
-      - name: Update README
+      - name: Update README with commits badge
         run: |
-          sed -i "s/<!-- COMMITS_BADGE -->/$BADGE/" README.md
+          BADGE="![Commits](https://img.shields.io/badge/Commits-${COMMITS}-blue?style=for-the-badge)"
+          echo "BADGE=$BADGE" >> $GITHUB_ENV
+          sed -i "s|<!-- COMMITS_BADGE -->|$BADGE|" README.md
 
       - name: Commit changes
         run: |
