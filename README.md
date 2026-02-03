@@ -1,16 +1,115 @@
-## Hi there 👋
+<img src="assets/icons/Epitech_Official_Logo.png" width="110px"/>
 
-<!--
-**nathanael-landelle/nathanael-landelle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# ⛏️ Hello, I'm Nathanaël
 
-Here are some ideas to get you started:
+🎓 First-year student at **Epitech**  
+🧱 Learning by building, breaking, and rebuilding  
+💻 C programming & Unix systems  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔗 Navigation  
+- [🏠 Spawn](#spawn)
+- [🎒 Inventory](#inventory)
+- [🏗️ Builds](#builds)
+- [🚧 In Progress or coming soon](#in-progress)
+
+<div style="width:100%; height:110px; overflow:hidden; border-radius:12px;">
+  <img
+    src="assets/banners/basic_banner.gif"
+    style="width:100%; margin-top:-40px;"
+  />
+</div>
+
+<a id="spawn"></a>
+## 🏠 Spawn
+This portfolio documents my progression as a developer.  
+My work is mainly composed of school projects focused on  
+low-level programming, Unix systems, fundamental  
+programming concepts, and simple graphical logic.  
+<!-- COMMITS_BADGE -->  
+---
+
+<a id="inventory"></a>
+## 🎒 Inventory
+C · Linux · Git · Ncurses · CSFML
+
+---
+
+<a id="builds"></a>
+## 🏗️ Builds
+
+### 🦆 my_hunter
+
+🎯 Objective :  
+&nbsp;&nbsp;Inspired by the Duck Hunt game released by Nintendo in 1984, create a  
+&nbsp;&nbsp;simple game featuring hitboxes, defeat conditions, menus, sound design,  
+&nbsp;&nbsp;and animations using the CSFML library.  
+
+<img
+  src="assets/projects/my_hunter.png"
+  width="520px"
+  style="
+    border-radius:11px;
+    border:1px solid rgba(0,0,0,0.15);
+  "
+/>
+
+🧠 What I learned:
+- Game loop fundamentals
+- Use of spritesheets
+- Event handling
+- Basic rendering logic
+
+---
+
+### 🔌 my_top
+
+🎯 Objective :  
+&nbsp;&nbsp;Recreate the Linux `top` command in a team of two  
+&nbsp;&nbsp;in order to better understand how a Unix  
+&nbsp;&nbsp;system works, using the Ncurses library.  
+
+<img
+  src="assets/projects/my_top.png"
+  width="600px"
+  style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
+/>
+
+🧠 What I learned:
+- Parsing files
+- Used a TUI library  
+- Team working
+
+---
+Render a 2D visualization panel simulating air traffic, using a file
+containing planes and towers data as input, with the CSFML library.
+
+### ✈️ my_radar
+
+🎯 Objective :  
+&nbsp;&nbsp;Render a 2D visualization panel simulating air traffic  
+&nbsp;&nbsp;using a file containing planes and towers data as input  
+&nbsp;&nbsp;with the CSFML librairy.  
+
+<img
+  src="assets/projects/my_radar.png"
+  width="600px"
+  style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
+/>
+
+🧠 What I learned:
+- Hitbox detection
+- Initialize sprites with parsed data  
+- Optimization
+
+---
+
+<a id="in-progress"></a>
+## 🚧 In Progress or coming soon
+- MiniShell
+- Personnal 2D game in CSFML
+
+---
+
+<a id="stats"></a>
+## 📊 Stats
+<!-- COMMITS_BADGE -->
