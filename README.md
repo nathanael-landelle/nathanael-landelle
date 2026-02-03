@@ -80,8 +80,6 @@ C · Linux · Git · Ncurses · CSFML
 - Team working
 
 ---
-Render a 2D visualization panel simulating air traffic, using a file
-containing planes and towers data as input, with the CSFML library.
 
 ### ✈️ my_radar
 
