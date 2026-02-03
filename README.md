@@ -25,7 +25,9 @@ This portfolio documents my progression as a developer.
 My work is mainly composed of school projects focused on  
 low-level programming, Unix systems, fundamental  
 programming concepts, and simple graphical logic.  
-<!-- COMMITS_BADGE -->  
+
+<!-- COMMITS_BADGE -->
+
 ---
 
 <a id="inventory"></a>
@@ -107,9 +109,3 @@ containing planes and towers data as input, with the CSFML library.
 ## 🚧 In Progress or coming soon
 - MiniShell
 - Personnal 2D game in CSFML
-
----
-
-<a id="stats"></a>
-## 📊 Stats
-<!-- COMMITS_BADGE -->
