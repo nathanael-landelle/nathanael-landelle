@@ -11,6 +11,7 @@
 - [🎒 Inventory](#inventory)
 - [🏗️ Builds](#builds)
 - [🚧 In Progress or coming soon](#in-progress)
+<a id="spawn"></a>
 
 <div style="width:100%; height:110px; overflow:hidden; border-radius:12px;">
   <img
@@ -19,22 +20,21 @@
   />
 </div>
 
-<a id="spawn"></a>
 ## 🏠 Spawn
 This portfolio documents my progression as a developer.  
 My work is mainly composed of school projects focused on  
 low-level programming, Unix systems, fundamental  
 programming concepts, and simple graphical logic.  
 
+<a id="inventory"></a>
 ---
 
-<a id="inventory"></a>
 ## 🎒 Inventory
 C · Linux · Git · Ncurses · CSFML
 
+<a id="builds"></a>
 ---
 
-<a id="builds"></a>
 ## 🏗️ Builds
 
 ### 🦆 my_hunter
@@ -99,9 +99,9 @@ C · Linux · Git · Ncurses · CSFML
 - Initialize sprites with parsed data  
 - Optimization
 
+<a id="in-progress"></a>
 ---
 
-<a id="in-progress"></a>
 ## 🚧 In Progress or coming soon
 - MiniShell
 - Personnal 2D game in CSFML
