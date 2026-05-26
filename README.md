@@ -64,15 +64,45 @@ C · Linux · Git · Ncurses · CSFML
 ### 🐚 minishell
 
 🎯 Objective :
-  Recreate a simplified Unix shell in C
-  to better understand how command interpreters,
-  processes, and the Unix environment work.
+&nbsp;&nbsp;Recreate a simplified Unix shell in C
+&nbsp;&nbsp;to better understand how command interpreters,
+&nbsp;&nbsp;processes, and the Unix environment work.
 
-<img
-src="assets/projects/minishell.png"
-width="600px"
-style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
-/>
+`
+./mysh
+$> /bin/ls
+file1 file2 file3
+$> ls
+file1 file2 file3
+$> env
+$> setenv EX exemple
+$> unsetenv EX
+$> cd folder/
+$> cd ..
+$> cd
+$> cd -
+$> echo $?
+$> exit
+`
+
+`
+./mysh
+$> ls | grep file2
+file1 *file2* file3
+
+$> ls ; ls -a
+file1 file2 file3
+. .. .git/ file1 file2 file3
+
+$> ls > output
+$> cat output
+file1 file2 file3
+
+$> ls >> output
+$> cat output
+old text exemple
+file1 file2 file3
+`
 
 🧠 What I learned:
 * Process and signal management
