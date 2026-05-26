@@ -61,6 +61,26 @@ C · Linux · Git · Ncurses · CSFML
 
 ---
 
+### 🐚 minishell
+
+🎯 Objective :
+  Recreate a simplified Unix shell in C
+  to better understand how command interpreters,
+  processes, and the Unix environment work.
+
+<img
+src="assets/projects/minishell.png"
+width="600px"
+style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
+/>
+
+🧠 What I learned:
+* Process and signal management
+* Parsing and executing commands
+* Environment variables and Unix system calls
+
+---
+
 ### 🔌 my_top
 
 🎯 Objective :  
@@ -104,4 +124,3 @@ C · Linux · Git · Ncurses · CSFML
 
 ## 🚧 In Progress or coming soon
 - MiniShell
-- Personnal 2D game in CSFML
