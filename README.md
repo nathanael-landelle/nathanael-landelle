@@ -70,7 +70,7 @@ C · Linux · Git · Ncurses · CSFML
 
 <img
   src="assets/projects/minishell.png"
-  width="600px"
+  width="300px"
   style="
     border-radius:120px;
     border:100px solid rgba(0,0,0,0.15);
