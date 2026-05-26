@@ -205,4 +205,4 @@ style="
 ---
 
 ## 🚧 In Progress or coming soon
-- MiniShell
+- Beginning of my 2nd year
