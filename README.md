@@ -121,7 +121,10 @@ style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
 <img
 src="assets/projects/amazed.png"
 width="600px"
-style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
+style="
+  border-radius:120px;
+  border:100px solid rgba(0,0,0,0.15);
+  "
 />
 
 🧠 What I learned:
@@ -131,6 +134,32 @@ style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
 * Adjacency lists and graph structures
 * Optimization and movement scheduling
 * Algorithmic problem solving
+
+---
+
+### ⚔️ Corewar
+
+🎯 Objective :  
+&nbsp;&nbsp;Build an assembler and a virtual machine in C  
+&nbsp;&nbsp;to simulate a multi-program battle in memory  
+&nbsp;&nbsp;where champions fight for survival using low-level instructions.  
+
+<img
+src="assets/projects/corewar.gif"
+width="600px"
+style="
+  border-radius:120px;
+  border:100px solid rgba(0,0,0,0.15);
+  "
+/>
+
+🧠 What I learned:
+
+* Assembly language parsing and compilation
+* Virtual machine design and memory simulation
+* Process scheduling and instruction execution cycles
+* Low-level C programming and bit manipulation
+* Team working
 
 ---
 
