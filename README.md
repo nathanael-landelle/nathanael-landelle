@@ -63,15 +63,18 @@ C · Linux · Git · Ncurses · CSFML
 
 ### 🐚 minishell
 
-🎯 Objective :
-&nbsp;&nbsp;Recreate a simplified Unix shell in C
-&nbsp;&nbsp;to better understand how command interpreters,
-&nbsp;&nbsp;processes, and the Unix environment work.
+🎯 Objective :  
+&nbsp;&nbsp;Recreate a simplified Unix shell in C  
+&nbsp;&nbsp;to better understand how command interpreters,  
+&nbsp;&nbsp;processes, and the Unix environment work.  
 
 <img
-  src="assets/projects/my_top.png"
+  src="assets/projects/minishell.png"
   width="600px"
-  style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
+  style="
+    border-radius:120px;
+    border:100px solid rgba(0,0,0,0.15);
+  "
 />
 
 🧠 What I learned:
