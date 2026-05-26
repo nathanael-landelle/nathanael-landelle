@@ -32,6 +32,8 @@ programming concepts, and simple graphical logic.
 ## 🎒 Inventory
 C · Linux · Git · Ncurses · CSFML
 
+Debugging: Gdb · Valgrind
+
 <a id="builds"></a>
 ---
 
@@ -81,6 +83,54 @@ C · Linux · Git · Ncurses · CSFML
 * Process and signal management
 * Parsing and executing commands
 * Environment variables and Unix system calls
+
+---
+
+### 🛡️ Hack & Juice
+
+🎯 Objective :  
+&nbsp;&nbsp;Practice web application pentesting through a CTF  
+&nbsp;&nbsp;based on the OWASP Juice Shop platform,  
+&nbsp;&nbsp;to understand real-world web vulnerabilities  
+&nbsp;&nbsp;and offensive security methodologies.  
+
+<img
+src="assets/projects/hack_and_juice.png"
+width="600px"
+style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
+/>
+
+🧠 What I learned:
+
+* Web application pentesting
+* OWASP Top 10 vulnerabilities
+* Using tools like Burp Suite and SQLMap
+* Writing security reports and documentation
+* Team working
+
+---
+
+### 🤖 A-maze-d
+
+🎯 Objective :  
+&nbsp;&nbsp;Develop a pathfinding program in C  
+&nbsp;&nbsp;capable of guiding multiple robots through a maze  
+&nbsp;&nbsp;using graph theory and shortest-path algorithms  
+&nbsp;&nbsp;while optimizing movements and avoiding collisions.  
+
+<img
+src="assets/projects/amazed.png"
+width="600px"
+style="border-radius:120px; border:100px solid rgba(0,0,0,0.15);"
+/>
+
+🧠 What I learned:
+
+* Graph theory and pathfinding algorithms
+* Parsing complex input data
+* Adjacency lists and graph structures
+* Optimization and movement scheduling
+* Algorithmic problem solving
 
 ---
 
